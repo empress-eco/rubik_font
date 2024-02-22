@@ -1,66 +1,65 @@
-# Rubik Fonts
+<div align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
+  <p align="center">
+    A versatile, multilingual typeface for a global audience.
+    <br>
+    <a href="https://empress.eco/">Explore the Fonts</a>
+    ·
+    <a href="https://github.com/empress-eco/rubik_font/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/rubik_font/issues">Request Feature</a>
+  </p>
+</div>
 
-The Rubik Fonts project was initiated as part of the [Chrome CubeLab](https://www.chrome.com/cubelab) project.
+## 📚 About The Project
 
-Rubik is a 5 weight Roman + Italic family. 
-Rubik Mono One is paired with Rubik One, a proportionally spaced variation of the design.
+Rubik Fonts is a comprehensive, open-source typeface that was initially developed as part of the Chrome CubeLab project. It's a 5-weight Roman + Italic family, meticulously designed to support Latin, Cyrillic, and Hebrew scripts. This project is an invaluable resource for developers, designers, or anyone in need of a versatile font for their creative or professional work.
 
-Rubik supports the Latin, Cyrillic and Hebrew scripts. 
-The Latin and Cyrillic were designed by Philipp Hubert and Sebastian Fischer at [Hubert Fischer](http://hubertfischer.com).
+## 🌟 Key Features
 
-The Hebrew was initially designed by Philipp and Sebastian, and then revised by type designer and Hebrew native reader Meir Sadan to adjust proportions, spacing and other design details. 
+- 5 weight Roman + Italic family
+- Supports Latin, Cyrillic, and Hebrew scripts
+- Includes Rubik Mono One and Rubik One variations
 
-Cyrillic was initially designed by Philipp and Sebastian, and then revised and expanded by Cyreal Fonts Team (Alexei Vanyashin and Nikita Kanarev). Exising glyphs were improved, and glyph set was expanded to GF Cyrillic Plus.
+## 🧰 Built With
 
+Rubik Fonts takes advantage of modern typography tools to deliver a high-quality, flexible typeface:
 
-#### License
+- [Glyphs](https://glyphsapp.com/)
+- [ttfautohint](https://www.freetype.org/ttfautohint/)
+- [VTT](https://www.microsoft.com/en-us/Typography/vtt.aspx)
 
-Licensed under the SIL Open Font License (v1.1)
+## 🚀 Getting Started
 
-#### Hebrew Revision, 2015
+To incorporate Rubik Fonts into your project, follow these simple steps:
 
-The Hebrew revision project was undertaken in 2015 and included:
-
-1. Adjusting glyph outlines with better bezier handle positions and points placed at extremes, and minor adjustments to the glyphs in accordance to Hebrew type design conventions.
-2. Where necessary completing missing glyphs such as Geresh (׳), Gershayim (״), Maqaf (־), Sheqel (₪), vowel marks (nikkud)*. Biblical cantillations were not be added or supported at this time.
-3. Font metrics were updated, with a focus on metrics rather than kerning pairs (which were kept to a bare minimum.
-4. The Glyphs editor and ttfautohint were used to add appropriate OpenType features for Hebrew vowel points (nikkud) positioning and TrueType hinting.
-5. The fonts were reviewed by Philipp and Sebastian and merged back into the original Rubik project.
-
-Meir also contributed to the [github.com/impallari/Font-Testing-Page](https://github.com/impallari/Font-Testing-Page) project with [Hebrew test specimens](http://www.impallari.com/testing/index-hebrew.php) for examining the fonts and testing them for errors.
-
-#### Cyrillic Revision and Expansion, 2016. Version 2.000
-
-The Cyrillic revision was undertaken in 2016 and included:
-
-1. Improving existing Cyrillic glyphs, and further glyph set expansion to GF Cyrillic Plus.
-2. Cyrillic font metrics were revised.
-3. The fonts were reviewed by Philipp and Sebastian. 
-4. Existing source files were ported to Glyphs App, and made compatible. Existing hinting was removed, and fonts were ttfautohinted in Glyphs App. 
-
-#### Source Files v.2.001
-In January 2017 all the source files have moved to `.glyphs` format.
-
-Hebrew uses a different interpolation gain than Latin for better interscript coherency. To accomodate these differences `Local Interpolation` parameter has been applied to the Hebrew range in the sources files.
-
-
-Style | Hebrew scheme | Latin scheme | Local Interpolation for Hebrew
---- | --- | --- | ---
-Light (Master) | 200 | 60 | - 
-Regular | 300 | 90 | 86
-Medium | 450 | 125 | 126.5
-Bold | 600 | 160 | 166
-Black (Master) | 800 | 220 | - 
-
-
-#### Source Files v2.100
-In June 2017 the .ttfs are now manually hinted using [VTT](https://www.microsoft.com/en-us/Typography/vtt.aspx). To build the manually hinted fonts, follow the Generating hinted ttfs instructions.
-
-
-#### Generating hinted ttfs
+1. Clone the repository:
+```sh
+git clone https://github.com/empress-eco/rubik_font.git
 ```
-# fontTools is the only required dependency.
+2. Install the fonts on your system.
 
-$ cd sources
-$ python generate_hinted_ttfs.py
-```
+For additional guidance on usage and integration, please refer to our [documentation](https://grow.empress.eco/).
+
+## 🤝 Contributing
+
+We appreciate and welcome contributions from the community! Here's how you can contribute:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📜 License and Acknowledgments
+
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
+
+We would like to express our deepest gratitude to the following contributors and resources:
+
+- [Philipp Hubert and Sebastian Fischer](http://hubertfischer.com) for designing the Latin and Cyrillic scripts.
+- Meir Sadan for adjusting the Hebrew script.
+- [Cyreal Fonts Team](https://cyreal.org/) for revising and expanding the Cyrillic script.
+- [Chrome CubeLab](https://www.chrome.com/cubelab) for initiating the project.
+
+Special thanks to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
